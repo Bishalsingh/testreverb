@@ -82,6 +82,14 @@
                     var d1 = document.getElementById('notification');
                     d1.insertAdjacentHTML('beforeend', '<div class="alert alert-success alert-dismissible fade show"><span><i class="fa fa-circle-check"></i>  '+data.message+'</span></div>');
                 });
+
+            // setTimeout(() => {
+            //     window.Echo.channel('posts')
+            //         .listen('.create', (e) => {
+            //             console.log(e)
+            //             console.log("Received success")
+            //         })
+            // }, 500)
         </script>
     @endif
 @endsection

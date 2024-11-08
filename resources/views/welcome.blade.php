@@ -172,5 +172,15 @@
                 </div>
             </div>
         </div>
+
     </body>
+<script>
+    setTimeout(() => {
+        window.Echo.channel('posts')
+            .listen('PostCreate', (e) => {
+                console.log(e)
+                console.log("Received success")
+            })
+    }, 500)
+</script>
 </html>
