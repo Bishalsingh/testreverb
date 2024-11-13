@@ -30,7 +30,7 @@ return [
 
         'reverb' => [
             'host' => env('REVERB_SERVER_HOST', '0.0.0.0'),
-            'port' => env('REVERB_SERVER_PORT', 2086),
+            'port' => env('REVERB_SERVER_PORT', 6100),
             'hostname' => env('REVERB_HOST'),
             'options' => [
                 'tls' => [
